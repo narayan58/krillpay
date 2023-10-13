@@ -60,7 +60,7 @@ class AdminTeamController extends Controller {
         $crud->name = $request->name;
         $crud->designation = $request->designation;
          $crud->linkedin_link = $request->linkedin_link;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->status = $request->status;
         $crud->save();
         Session::flash('success_message', CREATED);
@@ -115,7 +115,7 @@ class AdminTeamController extends Controller {
         $crud->name = $request->name;
         $crud->designation = $request->designation;
         $crud->linkedin_link = $request->linkedin_link;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->status = $request->status;
         $crud->save();
         Session::flash('success_message', UPDATED);
