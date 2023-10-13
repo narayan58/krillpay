@@ -1,0 +1,44 @@
+<style>
+    .translate-y-0,.translate-y-4{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.text-black,.text-gray-500,.text-indigo-500,.text-indigo-700,.text-red-500,.text-white{--tw-text-opacity:1}.duration-150,.transition{transition-duration:150ms}.focus\:ring-1:focus,.focus\:ring-4:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.fixed{position:fixed}.inset-x-0{left:0;right:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.top-0{top:0}.z-40{z-index:40}.z-50{z-index:50}.z-\[1000\]{z-index:1000}.my-8{margin-top:2rem;margin-bottom:2rem}.mb-2{margin-bottom:.5rem}.mr-1{margin-right:.25rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-20{height:5rem}.h-4{height:1rem}.h-full{height:100%}.h-screen{height:100vh}.w-4{width:1rem}.w-full{width:100%}.translate-y-0{--tw-translate-y:0px}.translate-y-4{--tw-translate-y:1rem}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:1s linear infinite spin}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-y-10>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-t-lg{border-top-left-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-0{border-width:0}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.bg-gray-100\/90{background-color:rgb(243 244 246 / .9)}.bg-gray-200\/50{background-color:rgb(229 231 235 / .5)}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity))}.bg-gray-300\/90{background-color:rgb(209 213 219 / .9)}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity))}.bg-transparent{background-color:transparent}.p-0{padding:0}.p-2{padding:.5rem}.p-\[0\.75rem\]{padding:.75rem}.p-4{padding:1rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-medium{font-weight:500}.leading-8{line-height:2rem}.tracking-wider{letter-spacing:.05em}.text-black{color:rgb(0 0 0 / var(--tw-text-opacity))}.text-gray-500{color:rgb(107 114 128 / var(--tw-text-opacity))}.text-indigo-500{color:rgb(99 102 241 / var(--tw-text-opacity))}.text-indigo-700{color:rgb(67 56 202 / var(--tw-text-opacity))}.text-red-500{color:rgb(239 68 68 / var(--tw-text-opacity))}.text-white{color:rgb(255 255 255 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.placeholder-gray-400::placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.opacity-0{opacity:0}.opacity-100{opacity:1}.opacity-25{opacity:.25}.opacity-75{opacity:.75}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4,0,0.2,1)}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}.ease-in{transition-timing-function:cubic-bezier(0.4,0,1,1)}.ease-in-out{transition-timing-function:cubic-bezier(0.4,0,0.2,1)}.ease-out{transition-timing-function:cubic-bezier(0,0,0.2,1)}.hover\:bg-indigo-600:hover{--tw-bg-opacity:1;background-color:rgb(79 70 229 / var(--tw-bg-opacity))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity))}.focus\:outline-none:focus{outline:transparent solid 2px;outline-offset:2px}.focus\:ring-1:focus{--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\:ring-4:focus{--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\:ring-blue-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(59 130 246 / var(--tw-ring-opacity))}.focus\:ring-indigo-300:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(165 180 252 / var(--tw-ring-opacity))}@media (min-width:640px){.sm\:scale-100,.sm\:scale-95,.sm\:translate-y-0{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.sm\:flex{display:flex}.sm\:translate-y-0{--tw-translate-y:0px}.sm\:scale-100{--tw-scale-x:1;--tw-scale-y:1}.sm\:scale-95{--tw-scale-x:.95;--tw-scale-y:.95}.sm\:justify-center{justify-content:center}.sm\:px-0{padding-left:0;padding-right:0}}@media (min-width:768px){.md\:py-3{padding-top:.75rem;padding-bottom:.75rem}.md\:text-sm{font-size:.875rem;line-height:1.25rem}}@media (min-width:1024px){.lg\:flex{display:flex}.lg\:h-full{height:100%}.lg\:w-9\/12{width:75%}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:overflow-hidden{overflow:hidden}.lg\:rounded-none{border-radius:0}.lg\:rounded-l-lg{border-top-left-radius:.5rem;border-bottom-left-radius:.5rem}.lg\:rounded-r-lg{border-top-right-radius:.5rem;border-bottom-right-radius:.5rem}.lg\:p-10{padding:2.5rem}.lg\:p-8{padding:2rem}.lg\:px-2{padding-left:.5rem;padding-right:.5rem}.lg\:px-10{padding-left:2.5rem;padding-right:2.5rem}}
+</style>
+
+<script defer src="{{ url('https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js') }}"></script>
+<script defer>
+    function submitData(passedData = null) {
+        return {
+            form: {},
+            error: {},
+            loading: false,
+            submit() {
+                this.loading = true;
+                if (passedData && passedData.hasOwnProperty('form')) this.form = Object.assign(this.form, passedData.form);
+                if (this.$refs._token) this.form._token = this.$refs._token.value;
+                let callU = (this.$refs.callULockR) ? this.$refs.callULockR.value : (this.form.hasOwnProperty('call') ? this.form.call : '');
+                //
+                fetch(callU, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(this.form)
+                })
+                    .then((response) => response.json())
+                    .then(data => {
+                        if (data.hasOwnProperty('error')) {
+                            for (let errorKey in data.error) {
+                                this.error[errorKey] = data.error[errorKey];
+                            }
+                            for (let errorKey in this.error) {
+                                if (!data.error.hasOwnProperty(errorKey))
+                                    this.error[errorKey] = false;
+                            }
+                        }
+                        // url
+                        if (data.hasOwnProperty('url')) setTimeout(() => { window.location.assign(data.url); }, 500);
+                        if (data.hasOwnProperty('reload')) setTimeout(() => { window.location.reload(); }, 500);
+                        if (data.hasOwnProperty('reset')) this.form = {};
+                    })
+                    .catch(() => { this.$dispatch('notify', { type: 'error', text: 'Oops! Something went wrong!' }); })
+                    .finally(() => { this.loading = false; });
+            }
+        }
+    }
+</script>
