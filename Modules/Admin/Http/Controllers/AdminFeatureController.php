@@ -58,7 +58,7 @@ class AdminFeatureController extends Controller {
         $crud->title = $request->title;
         $crud->sub_title = $request->sub_title;
         $crud->description = $request->description;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->status = $request->status;
         $crud->save();
         Session::flash('success_message', CREATED);
@@ -111,7 +111,7 @@ class AdminFeatureController extends Controller {
         $crud->title = $request->title;
         $crud->sub_title = $request->sub_title;
         $crud->description = $request->description;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->status = $request->status;
         $crud->save();
         Session::flash('success_message', UPDATED);
