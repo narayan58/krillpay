@@ -57,7 +57,7 @@ class AdminValueController extends Controller {
         $crud = new AdminValue;
         $crud->title = $request->title;
         $crud->description = $request->description;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->status = $request->status;
         $crud->save();
         Session::flash('success_message', CREATED);
@@ -109,7 +109,7 @@ class AdminValueController extends Controller {
         $crud = AdminValue::findOrFail($id);
         $crud->title = $request->title;
         $crud->description = $request->description;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->status = $request->status;
         $crud->save();
         Session::flash('success_message', UPDATED);
