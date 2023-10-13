@@ -58,7 +58,7 @@ class AdminPagesController extends AdminController {
         $crud->sub_title = $request->sub_title;
         $crud->description = $request->description;
         $crud->published_date = $request->published_date;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->meta_title = $request->meta_title;
         $crud->meta_keywords = $request->meta_keywords;
         $crud->meta_description = $request->meta_description;
@@ -118,7 +118,7 @@ class AdminPagesController extends AdminController {
         $crud->meta_keywords = $request->meta_keywords;
         $crud->meta_description = $request->meta_description;
         $crud->show_on_homepage = $request->show_on_homepage;
-        $crud->image = chunkfullurl($request->image);
+        $crud->image = $request->image;
         $crud->slug = str_slug($request->slug,'-');
         $crud->updated_by = session('admin')['userid'];
         $crud->status = $request->status;
